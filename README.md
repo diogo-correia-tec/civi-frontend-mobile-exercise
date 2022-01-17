@@ -4,10 +4,13 @@ Included below are instructions for completing Civi's take-home engineering exer
 ## Exercise Summary
 Consume JSON messages from an API, and display them to a user.
 
-You may use almost any resources, programming languages, platforms, or frameworks to fulfill the exercise (ideally React Native in frontend, please don't use "expo"). Put all the code into a single git repository. The exercise should not take more than a few hours, so scope the level of effort to that amount of time. We will use the code as the basis of a technical discussion later.
+Please use React Native to build the app (please, don't use "expo"). Put all the code into a single git repository. The exercise should not take more than a few hours, so scope the level of effort to that amount of time. We will use the code as the basis of a technical discussion later.
 
 ### Backend Detail
-Create a backend service that serves JSON over HTTP. It should have one API endpoint at /messages that returns a JSON array of objects. Each object has the following fields:
+Create a backend service that serves JSON over HTTP
+
+You may use any resources, programming languages, platforms, or framework in backend (We recommend Golang). 
+It should have one API endpoint at /messages that returns a JSON array of objects. Each object has the following fields:
 - id (integer)
 - timestamp (integer)
 - subject (text)
