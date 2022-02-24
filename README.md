@@ -23,3 +23,5 @@ The UI should display a list of messages with the most recent at the top. This l
 
 ### Other
 You may add parameters to the defined API, or add other APIs, as you see fit.
+Make as many commits as possible so that we understand the line of reasoning during the development of your code.
+Please, use Typescript.
